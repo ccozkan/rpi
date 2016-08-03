@@ -24,3 +24,14 @@ diff -s from-sd-card.img 2016-05-27-raspbian-jessie.img
 sync
 
 remove sd card
+
+#internet ayarlari
+
+statik ip vs yapmak icin
+
+/etc/dhcpcd.d yi editlemek gerek
+
+interface eth0
+static ip_adress=192.168.1.17/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
