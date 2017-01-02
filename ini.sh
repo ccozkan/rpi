@@ -7,7 +7,7 @@ echo 'pihole'
 curl -L https://install.pi-hole.net | bash
 
 echo 'customization'
-
+cat bashu >> .bashrc
 mkdir Paketler/
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd Paketler
