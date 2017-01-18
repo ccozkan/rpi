@@ -1,0 +1,9 @@
+#!/bin/bash
+
+wget https://pypi.python.org/packages/e2/58/6e1b775606da6439fa3fd1550e7f714ac62aa75e162eed29dbec684ecb3e/RPi.GPIO-0.6.3.tar.gz
+
+tar -xvzf RPi.GPIO-0.6.3.tar.gz
+cd  RPi.GPIO-0.6.3/
+
+python2.7 setup.py install --user --record yuklenenler.txt
+
